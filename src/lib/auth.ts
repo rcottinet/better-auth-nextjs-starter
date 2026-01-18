@@ -27,7 +27,7 @@ export const auth = betterAuth({
                         throw new APIError("BAD_REQUEST", {
                             message: "Signup is disabled",
                         });
-                    },
+                    }
                 },
             },
         },
